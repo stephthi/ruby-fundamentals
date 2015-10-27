@@ -11,3 +11,9 @@ puts 55 * 0.15
 number = 3
 puts "Number equates to #{number}."
 
+# Evidently, Ruby is much more than just a calculator, but try 
+# outputting the result of 45628 multiplied by 7839 in a sentence 
+# by using string interpolation.
+
+number = 45628 * 7839
+puts "#{number}"
