@@ -2,6 +2,13 @@
 
 my_var = (1..100)
 my_var.each do |num|
-puts num
-
-end
+ if num % 15 == 0
+ 	puts "BitMaker"
+ elsif num % 3 == 0
+ 	puts "Bit"
+ elsif num % 5 == 0
+ 	puts "Maker"
+ else 
+ 	puts num
+ 	end 
+ end
