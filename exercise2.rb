@@ -17,3 +17,12 @@ puts "Number equates to #{number}."
 
 number = 45628 * 7839
 puts "#{number}"
+
+# What's the value of the expression (true && false) || 
+# (false && true) || !(false && false)? Try figuring 
+# it out on your own before typing it in.
+
+# The answer is false because it would be true if at least one
+# side it true. However, all sides are false
+
+puts (true && false) || (false && true) || (false && false)
